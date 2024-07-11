@@ -1,12 +1,71 @@
-<div>
+<div id="main" class="whole">
     <div id="des">
-        <h1>Name</h1>
+        <h1>Welcome to the store</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta corrupti nobis tenetur quaerat deleniti expedita ut nam! Saepe doloremque quo nesciunt velit ipsam fuga. Consequuntur molestiae ipsam odit quae, alias consectetur autem beatae non?
+            Streamlining the manufacturing process to deliver a unique and personalized experience for every custo
         </p>
     </div>
-    <div id="3dmodel">
-        <!--3d Model -->
+</div>
+<div id="ad">
+    <div>
+        <h1>CREATE YOUR OWN CUSTOM DESIGN</h1>
+        <p>CONSUMERS CAN CUSTOMISE AND PERSONALISE DESIGNS QUICKLY AND EASILY ON OUR WEBSITE
+        </p>
+    </div>
+    <div id="content">
+        
+        <div id="modelphoto" *ngFor="let cloth of clothes">
+            <img [src]="cloth.templateUrl" [alt]="cloth.name">
+            <p>{{ cloth.name }}</p>
+          </div>
+        <div id="list">
+            <ul>
+                <li>FAST DYNAMIC 3D CONFIGURATORS</li>
+                <li>CUSTOM 3D AVATARS</li>
+                <li>PATTERN AUTOMATION ENGINE</li>
+                <li>ORDER PROCESSING DASHBOARD</li>
+                <li>DYNAMIC PRINT, TEXTURES AND COLORS</li>
+                <li>ORDER FULFILMENT</li>
+                <li>EASILY COMMUNICATE WITH DESIGNERS AND MANUFACTURERS</li>
+            </ul>
+        </div>
     </div>
 </div>
+
+<div id="rate">
+    <!--rating and description and button-->
+    <div id="rateinside">
+        <h2>EXTENSIVE LIBRARY OF TEMPLATES TO CHOOSE AND CUSTOMISE FROM!</h2>
+        <p>Whether you’re remixing a classic into something never seen before or simplifying the latest drop into a totally neutral palette, your customization journey starts with choosing a template. Luckily, we’re always adding new templates you can find to express your style!</p>
+    </div>
+    <div><button>Start Designing Now</button></div>
+</div>
+
+<div>
+    <!--for the last part-->
+    <div id="last">
+        <h2>e-Tailor is the next fashion industry technology standard. Give yourself the early advantage! Join now and grow with us!</h2>
+        <div class="container">
+            <div class="subpart">
+                <img src="assets/petrikirche-3536449_1920.jpg" alt="Image 1">
+                <p>Description for Image 1</p>
+            </div>
+            <div class="subpart">
+                <img src="assets/petrikirche-3536449_1920.jpg" alt="Image 2">
+                <p>Description for Image 2</p>
+            </div>
+            <div class="subpart">
+                <img src="assets/petrikirche-3536449_1920.jpg" alt="Image 3">
+                <p>Description for Image 3</p>
+            </div>
+            <div class="subpart">
+                <img src="assets/petrikirche-3536449_1920.jpg" alt="Image 4">
+                <p>Description for Image 4</p>
+            </div>
+        </div>
+    </div>
+    <button>Contact Us for more Info</button>
+</div>
+
+
 

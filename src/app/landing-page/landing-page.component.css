@@ -1,0 +1,116 @@
+
+.whole{
+    height: 450px; 
+    width: 100%;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}
+#des p{
+    padding: 55px;
+}
+
+#main{
+background-color: rgb(247, 103, 235);
+}
+#ad{
+    height: auto;
+    margin-top: 55px;
+    align-content: center;
+    text-align: center;
+}
+
+#ad p{
+padding: 55px;
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#modelphoto{
+    flex: 1;
+    margin-right: 20px;
+    
+}
+
+#modelphoto img {
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+#list {
+    flex: 1;
+    text-align: left;
+    padding: 15px;
+}
+
+#list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list li {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+#rate{
+    height: auto; 
+    margin-top: 55px;
+    align-content: center;
+    text-align: center;
+}
+
+#rateinside{
+    width: 900px;
+    display: inline-block;
+}
+#rateinside p{
+    padding-top: 35px;
+}
+#rate button{
+    margin-top: 25px;
+    height: 35px;
+    width: 150px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+#last{
+    height: auto; 
+    margin-top: 55px;
+    align-content: center;
+    text-align: center; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 25px auto;
+}
+.subpart {
+    border: 1px solid #eb1515;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: calc(50% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.subpart img {
+    max-width: 100%;
+    height: 400px;
+    width: 350px;
+    border-radius: 8px 8px 0 0;
+}
+.subpart p {
+    margin: 10px 0 0;
+}
+
